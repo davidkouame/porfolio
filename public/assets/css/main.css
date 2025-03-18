@@ -179,6 +179,10 @@ body {
   }
 
   .porfolio{
-    
+    margin-bottom: 3rem;
   }
   
+
+  .requirements li{
+    list-style: disc;
+  }
