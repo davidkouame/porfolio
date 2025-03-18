@@ -1,0 +1,184 @@
+:root{
+    --n5 : 41,41,41
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+.sidebar {
+    height: 100vh;
+    width: 305px;
+    background-color: #fafafa;
+    position: fixed;
+    padding-top: 20px;
+}
+.sidebar a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+.sidebar h5, .sidebar p {
+    color: black;
+}
+.sidebar a:hover {
+    background-color: #b8d6c5;
+    border-radius: 5px;
+}
+.content {
+    margin-left: 270px;
+    padding: 40px;
+}
+.profile{
+    width: 80px;
+    height: 80px;
+}
+.profile-pic {
+    width: 100%;
+    border-radius: 50%;
+}
+.n5-color{
+    color: rgba(var(41,41,41), 1);
+}
+.btn-custom {
+    background-color: #5a8f80;
+    color: white;
+}
+.btn-custom:hover {
+    background-color: #487c6c;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;  /* Adjust the size as needed */
+    height: 40px;
+    border-radius: 50%;
+    background-color: #f1f1f1;  /* Light background */
+    color: #333;  /* Icon color */
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #007bff; /* Change color on hover */
+    color: white;
+}
+
+.line-divider {
+    height: 1px;
+    width: 100%;
+    background-color: rgba(var(--n5), 0.1);
+  }
+
+  hr {
+    border: 0;
+    border-top: 2px solid #000; /* Black solid line */
+    margin: 20px 0;  /* Space above and below the line */
+}
+
+.gap-3 {
+    gap: 0.75rem !important;
+  }
+
+  .flex-column {
+    flex-direction: column !important;
+  }
+
+  ul, ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .side-menu .side-menu-right .menu-list ul li {
+    transition: all 0.3s ease-in-out;
+  }
+
+  .bg1-color {
+    background-color: rgba(120, 171, 160, 1);
+  }
+
+  .rounded-3 {
+    border-radius: 0.5rem !important;
+  }
+
+  .n11-color {
+    color: rgba(255, 255, 250, 1);
+  }
+
+  .fs-eight {
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  .gap-2 {
+    gap: 0.5rem !important;
+  }
+
+  .py-2 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+
+  .px-3 {
+    padding-right: 0.75rem !important;
+    padding-left: 0.75rem !important;
+  }
+
+  .align-items-center {
+    align-items: center !important;
+  }
+
+  .d-flex {
+    display: flex !important;
+  }
+
+  .content-body{
+    margin-top: 7rem;
+    margin-left: 10rem;
+  }
+
+  h2{
+    font-size: 24px;
+    line-height: 120%;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    color: rgba(41,41,41, 1);
+  }
+
+  .block-numbers{
+
+  }
+
+  .block-text{
+
+  }
+
+  .blog-savoirs, .featured-projects, .blog-featured-project{
+    padding-top: 3rem;
+  }
+
+  nav{
+    margin-top: 0rem !important;
+    padding-top: 0rem !important;
+  }
+
+  nav a{
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+
+  .skills{
+    display: flex;
+  }
+
+  .skill{
+    padding: 0px 0.5rem;
+  }
+
+  .porfolio{
+    
+  }
+  
