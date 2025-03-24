@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
     <div class="row">
-      <nav class="col-md-3">
+      <nav class="col-md-2">
         <div class="sidebar d-flex flex-column align-items-center">
           <div class="profile">
               <img src="./assets/img/profile.png" alt="Profile Picture" class="profile-pic mb-3">
@@ -65,7 +65,7 @@ import HelloWorld from './components/HelloWorld.vue'
           </div>
         </div>
       </nav>
-      <div class="col-md-9">
+      <div class="col-md-10" style="margin-left: -12px;margin-top: 6rem;">
         <router-view></router-view>
       </div>
     </div>
