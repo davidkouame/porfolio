@@ -1,0 +1,122 @@
+{
+    "name":" David Kouame",
+    "resume": "En tant qu’ingénieur logiciel, je suis animé par une véritable passion pour la conception et le développement de solutions informatiques innovantes, alliant technologies de pointe, bonnes pratiques de l’ingénierie logicielle et méthodologies modernes de gestion de projet (Agile, DevOps, Lean, etc.). Mon objectif est de créer des applications robustes, évolutives et performantes, parfaitement alignées avec les besoins métiers des utilisateurs. Je m’engage à transformer les idées en solutions concrètes, intuitives et durables, tout en garantissant la qualité, la maintenabilité et la sécurité du code.",
+    "tel": "+225 0747886905",
+    "email": "kouamedavid124@gmail.com",
+    "link": "www.yourwebsite.com ",
+    "city": "Abidjan - Abobo",
+    "experiences": [
+        {
+            "position": "Développeur",
+            "entreprise": "Guichet Unique du Commerce Extérieur - CI",
+            "time": "janv.2023 - Aujourd'hui",
+            "talking": "Le Guichet Unique du Commerce Extérieur (GUCE) est une entreprise publique dont la mission principale est de dématérialiser les procédures administratives liées au commerce extérieur, à travers la mise en œuvre de solutions informatiques innovantes. En tant que développeur au sein de cette équipe, ma contribution est principalement axée sur la conception technique, le développement de nouvelles fonctionnalités ainsi que la maintenance évolutive et corrective des applications.J'interviens activement dans l'amélioration continue des systèmes existants, tout en veillant à la qualité, la performance et la sécurité des solutions livrées.",
+            "tasks":[
+                "Maintenance applicative d’une application de gestion des voyages",
+                "Maintenance applicative d’une application de gestion des manifestes",
+                "Développement d’une application de gestion des codes d'importation et d'exportation",
+                "Maintenance applicative d’une application de gestion du rapport final de la classification de valeur",
+                "Maintenance applicative d’une application de gestion des délivrances des certificats phytosanitaires",
+                "Maintenance applicative des web services consommés par l’application mobile de GUCE",
+                "Conception d’intégration de l’outils de visualisation de métriques et journalisation distribuée",
+                "Intégration des tests unitaires et des tests d’intégrations"
+            ]
+        },
+        {
+            "position": "Développeur",
+            "entreprise": "Allianz",
+            "time": "octobre.2020 - décembre.2022",
+            "talking": "Allianz Côte d'Ivoire est une compagnie d’assurance reconnue pour sa fiabilité et son professionnalisme. En rejoignant cette équipe, j’ai participé activement au développement des API de l’application DiapaZon, ainsi qu’au support applicatif, en veillant à la maintenance, la résolution des incidents et l’accompagnement des utilisateurs.",
+            "tasks":[
+                "Conception et développement des web services de l’application mobile Diapazon",
+                "Automatisation des flux de données entre l'assurance et la banque réduisant le temps de traitement des prélèvements et améliorant l’intégration des montants",
+                "Assuré la formation des équipes métiers, augmentant l’efficacité opérationnelle des utilisateurs internes"
+            ]
+        },
+        {
+            "position": "Développeur",
+            "entreprise": "Digital Afrique Télécom",
+            "time": "janvier.2018 - septembre.2020",
+            "talking": "Digital Afrique Télécom est une entreprise innovante, opérant dans le domaine des services à valeur ajoutée télécom à travers le continent africain. Mon rôle au sein de l’équipe a consisté à concevoir, développer et maintenir des applications web et mobiles, en mettant l’accent sur la scalabilité, la qualité du code et la réponse aux besoins spécifiques des opérateurs et utilisateurs finaux.",
+            "tasks":[
+                "Conception et développement d’une application web pour l’Agence Emploi Jeune",
+                "Conception et développement d’une application pour la gestion électronique des récépissés",
+                "Développement d’un système de digitalisation des taxes municipales de la commune d’Ashaiman (Ghana)",
+                "Développement d’une plateforme de paiement des cotisations sociales pour la CNPS",
+                "Développement du site internet de l’Autorité de Régulation du système de Récépissés d’Entreposage (ARRE)",
+                "Maintenance de l’application de gestion SAPHIR V3 pour le compte de la GS2E"
+            ]
+        },
+        {
+            "position": "Gestionnaire de données",
+            "entreprise": "Clinique Médical Adjamé Liberté",
+            "time": "janvier.2017 - décembre.2017",
+            "talking": "La Clinique Médicale Adjamé Liberté est un établissement de santé privé qui propose une gamme de soins médicaux destinés à assurer le bien-être des patients. Mon rôle au sein de cet établissement consistait à assurer la collecte, l’organisation, la sécurisation et l’analyse des données médicales et administratives, dans le but de garantir leur fiabilité, leur confidentialité et leur exploitation optimale pour le suivi des patients et l’amélioration continue des services de soins.",
+            "tasks":[
+                "Assurer la collecte, l'organisation et la mise à jour des données ",
+                "Assurer la conformité avec les réglementations et mettre en œuvre politiques de sécurité des données ",
+                "Produire des rapports et des analyses afin d'optimiser les les processus cliniques et administratifs"
+            ]
+        },
+        {
+            "position": "Développeur",
+            "entreprise": "Vases d'Honneur",
+            "time": "novembre.2015 - mai.2016",
+            "talking": "Vases d’Honneur est une communauté chrétienne en Côte d'Ivoire, centrée sur l'enseignement biblique, le développement spirituel et l'impact social, avec pour objectif de former des leaders transformateurs et d'influencer positivement la société.Au sein de cette communauté, j’ai participé à la création et à la mise en place d’une plateforme dédiée au suivi des fidèles, dans le but de faciliter la gestion de leurs activités spirituelles et leur engagement au sein de la communauté.",
+            "tasks":[
+                "Développement d'un système de gestion intégré et refonte du site web de l'église vase d'Honneur"
+            ]
+        },
+        {
+            "position": "Développeur",
+            "entreprise": "WebbSolution",
+            "time": "octobre.2014 - octobre.2015",
+            "talking": "WebbSolution est un cabinet de développement spécialisé dans l'automatisation et le conseil informatique, offrant des services de conception de sites web, de développement d'applications mobiles et d'autres solutions numériques sur mesure. En tant que stagiaire au sein de l'équipe, j’étais impliqué dans la conception, le développement et la maintenance des applications, en garantissant leur performance, leur évolutivité et leur adéquation avec les besoins des clients.",
+            "tasks":[
+                "Développement back-end d'applications mobiles JobInfos, UTBMobile, GeniesenHerbe,MaLife"
+            ]
+        }
+    ],
+    "skills":{
+        "technicals":[
+            "JavaScript/Vue",
+            "Java/PHP",
+            "Oracle/MySql",
+            "TDD, SOLID, clean code",
+            "Git, Docker, AWS"
+        ],
+        "professionnals":[
+            "Une communication efficace",
+            "Esprit d'équipe",
+            "Strong problem solver ",
+            "Bonne gestion du temps "
+        ]
+    },
+    "educations":[
+        {
+            "years": "2019-2021",
+            "name": "Master en Informatique option Génie logiciel"
+        },
+        {
+            "years": "2014-2015",
+            "name": "Brevet de technicien supérieur option Développeur d’Application"
+        }
+    ],
+    "certifications":[
+        {
+            "year":"2024",
+            "name": "Certifié ITIL®4"
+        }
+    ],
+    "languages":[
+        {
+            "name": "Anglais",
+            "level": "Débutant"
+        },
+        {
+            "name": "Français",
+            "level": "Natif"
+        }
+    ],
+    "interests": ["Lecture"]
+}

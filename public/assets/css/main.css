@@ -1,10 +1,38 @@
 :root{
-    --n5 : 41,41,41
+    --n5 : 41,41,41;
+    --p1: 120, 171, 168;
+  --p2: 217, 236, 227;
+  --n1: 255, 255, 255;
+  --n11: 255, 255, 255;
+  --n2: 250, 250, 250;
+  --n3: 143, 143, 143;
+  --n4: 79, 79, 79;
+  --n41: 79, 79, 79;
+  --n42: 79, 79, 79;
+  --n5: 41, 41, 41;
+  --n51: 41, 41, 41;
+  --y1: 255, 172, 39;
+  --bg1: 120, 171, 168;
+  --bg2: 255, 145, 251;
+  --bg3: 253, 187, 46;
+  --bg4: 82, 113, 255;
+  --bg5: 0, 255, 255;
+  --bg6: 84, 182, 137;
+  --box-shadow-p1: 0px 0px 24px 0px rgba(0, 0, 0, 0.08);
+  --box-shadow-p2: 0px 6px 30px 0px rgba(0, 0, 0, 0.04);
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
 }
 body {
     font-family: Arial, sans-serif;
     background-color: #fff;
 }
+
+a {
+  text-decoration: none !important;
+  outline: none !important;
+  transition: all 0.3s ease;
+}
+
 .sidebar {
     height: 100vh;
     width: 320px;
@@ -148,14 +176,6 @@ body {
     color: rgba(41,41,41, 1);
   }
 
-  .block-numbers{
-
-  }
-
-  .block-text{
-
-  }
-
   .blog-savoirs, .featured-projects, .blog-featured-project{
     padding-top: 3rem;
   }
@@ -185,4 +205,80 @@ body {
 
   .requirements li{
     list-style: disc;
+  }
+
+  .section-header .resume h3{
+    color: rgba(41,41,41, 1);
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+  .section-header .resume a{
+    justify-content: center;
+    min-width: 324px;
+    width: max-content;
+    transition: all 0.7s linear;
+    background: rgba(120,171,168);
+    border: 0px;
+    padding: 0.7rem 0 0.9rem 0;
+    border-radius: 50px;
+  }
+
+  .section-header .resume a span{
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+  }
+
+  @media (min-width: 768px) {
+    .mb-md-6 {
+      margin-bottom: 1.5rem !important;
+    }
+  }
+
+  .display-four {
+    font-size: 56px;
+    line-height: 120%;
+  }
+
+  .fs-bolder-custom{
+    font-weight: 600 !important;
+  }
+
+  .section-heading {
+    width: 732px;
+  }
+
+  .fs-seven {
+    font-size: 18px;
+    line-height: 130%;
+  }
+
+  .fs-five, h5, h5 > a {
+    font-size: 24px;
+    line-height: 120%;
+  }
+
+  .fw-semibold {
+    font-weight: 600 !important;
+  }
+
+  .mb-2 {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .br1-left {
+    border-left: 1px solid rgba(var(--p1), 1);
+  }
+
+  @media (min-width: 768px) {
+    .mt-md-15 {
+      margin-top: 3.75rem !important;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .gap-md-6 {
+      gap: 1.5rem !important;
+    }
   }

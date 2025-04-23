@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "name": "DiapaZon",
+        "img": "http://localhost/images/diapaZon.png",
+        "smallDescription": "Une application conçue pour simplifier et optimiser divers processus. Intuitive et performante, elle répond aux besoins des utilisateurs en apportant des solutions adaptées à leurs défis quotidiens.",
+        "client": "Allianz Côte d'Ivoire",
+        "position": "Développeur backend",
+        "link":"https://play.google.com/store/apps/details?id=com.allianzci.diapazon&hl=en",
+        "context": "diapAZon est une application mobile d'Allianz Côte d'Ivoire conçue pour simplifier la gestion des assurances. Elle permet aux utilisateurs de créer un compte, consulter et souscrire des contrats, payer les primes en ligne, déclarer des sinistres en temps réel, et mettre à jour leurs informations personnelles, le tout depuis leur smartphone. Disponible sur Android et iOS, diapAZon offre une expérience utilisateur fluide et sécurisée. ​",
+        "goals": [
+            {
+                "name": "Simplifier la gestion des assurances"
+            },
+            {
+                "name": "Améliorer l'accessibilité aux services​"
+            },
+            {
+                "name": "Renforcer l'interaction avec la clientèle​"
+            },
+            {
+                "name": "Promouvoir la transformation digitale"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Agence Emploi Jeune",
+        "img": "http://localhost/images/aej.png",
+        "smallDescription": "La plateforme AEJ (Agence Emploi Jeunes) est une initiative du gouvernement ivoirien visant à faciliter l'insertion professionnelle des jeunes",
+        "client":"Digital Afrique Télécom",
+        "position": "Développeur fullstack",
+        "link": "https://agenceemploijeunes.ci",
+        "context": "La plateforme AEJ (Agence Emploi Jeunes) est une initiative du gouvernement ivoirien visant à faciliter l'insertion professionnelle des jeunes. Elle offre divers services, notamment des programmes de stages, d'apprentissage et de reconversion pour améliorer l'employabilité des jeunes diplômés et non diplômés.",
+        "goals": [
+            {
+                "name": "Favoriser l’insertion professionnelle des jeunes"
+            },
+            {
+                "name": "Offrir un accompagnement personnalisé"
+            },
+            {
+                "name": "Renforcer l’employabilité"
+            },
+            {
+                "name": "Faciliter l’accès aux financements"
+            },
+            {
+                "name": "Centraliser les opportunités et données"
+            }
+        ]
+    }
+]

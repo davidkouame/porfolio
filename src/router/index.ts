@@ -25,7 +25,7 @@ const router = createRouter({
       component: Porfolio
     },
     {
-      path: '/porfolio/1',
+      path: '/portfolio/:id',
       name: 'porfolio-detail',
       component: PorfolioDetail
     },
@@ -45,6 +45,15 @@ const router = createRouter({
       component: Contacts
     }
   ],
+  scrollBehavior(to, from, savedPosition) {
+    if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: 'smooth',
+      };
+    }
+    return { top: 0 };
+  }
 })
 
 export default router

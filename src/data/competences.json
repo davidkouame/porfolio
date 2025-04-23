@@ -1,0 +1,154 @@
+[
+    {
+        "logos": [
+            {
+                "logo": "http://localhost/images/java-svg.png"
+                
+            },
+            {
+                "logo": "http://localhost/images/php-svg.png",
+                "customCss": "height: 38px;"
+            },
+            {
+                "logo": "http://localhost/images/js-svg.png",
+                "customCss": "position: relative;top: 4px;"
+                
+            }
+        ],
+        "name": "Langages informatiques",
+        "content": "Je développe avec <b>Java (8, 11, 17)</b>, <b>PHP</b> et <b>JavaScript</b>, ce qui me permet de créer des applications robustes, évolutives et performantes."
+    },
+    {
+        "logos": [
+            {
+                "logo": "http://localhost/images/java-svg.png"
+                
+            },
+            {
+                "logo": "http://localhost/images/php-svg.png",
+                "customCss": "height: 38px;"
+            },
+            {
+                "logo": "http://localhost/images/js-svg.png",
+                "customCss": "position: relative;top: 4px;"
+                
+            }
+        ],
+        "name": "Frameworks",
+        "content": "Je suis spécialisé dans le développement d'applications web, en utilisant des technologies telles que <b>Spring</b>, <b>Grails</b>, <b>Laravel</b> <b> Vuejs</b>"
+    },
+    {
+        "logos": [
+            {
+                "logo": "http://localhost/images/java-svg.png"
+                
+            },
+            {
+                "logo": "http://localhost/images/php-svg.png",
+                "customCss": "height: 38px;"
+            },
+            {
+                "logo": "http://localhost/images/js-svg.png",
+                "customCss": "position: relative;top: 4px;"
+                
+            }
+        ],
+        "name": "Base de données",
+        "content": "Pour le stockage des données, mes comptétences sont plus axés sur <b>MySql</b> et <b>Oracle</b>"
+    },
+    {
+        "logos": [
+            {
+                "logo": "http://localhost/images/java-svg.png"
+                
+            },
+            {
+                "logo": "http://localhost/images/php-svg.png",
+                "customCss": "height: 38px;"
+            },
+            {
+                "logo": "http://localhost/images/js-svg.png",
+                "customCss": "position: relative;top: 4px;"
+                
+            }
+        ],
+        "name": "Achitectures",
+        "content": "Graâce à mon expertise avec les langages, je concois des applications en adoptant des architectures modernes telles que <b>Event sourcing</b>, <b>MVC</b>, <b>modulaire</b>, <b>Microservices</b>, <b>3-tiers</b>, <b>even-driven</b>"
+    },
+    {
+        "logos": [
+            {
+                "logo": "http://localhost/images/java-svg.png"
+                
+            },
+            {
+                "logo": "http://localhost/images/php-svg.png",
+                "customCss": "height: 38px;"
+            },
+            {
+                "logo": "http://localhost/images/js-svg.png",
+                "customCss": "position: relative;top: 4px;"
+                
+            }
+        ],
+        "name": "Infrastructures et DevOps",
+        "content": "Maîtrise des outils et technologies essentiels au développement et au déploiement d'applications modernes, notamment <b>Git</b>, <b>Docker</b>, <b>AWS</b>"
+    },
+    {
+        "logos": [
+            {
+                "logo": "http://localhost/images/java-svg.png"
+                
+            },
+            {
+                "logo": "http://localhost/images/php-svg.png",
+                "customCss": "height: 38px;"
+            },
+            {
+                "logo": "http://localhost/images/js-svg.png",
+                "customCss": "position: relative;top: 4px;"
+                
+            }
+        ],
+        "name": "Outils",
+        "content": "Expérience dans la gestion des builds et des dépendances avec <b>Gradle</b> et <b>Maven</b>, ainsi que dans le déploiement et la configuration de serveurs applicatifs tels que <b>Tomcat</b> et <b>Apache</b>"
+    },
+    {
+        "logos": [
+            {
+                "logo": "http://localhost/images/java-svg.png"
+                
+            },
+            {
+                "logo": "http://localhost/images/php-svg.png",
+                "customCss": "height: 38px;"
+            },
+            {
+                "logo": "http://localhost/images/js-svg.png",
+                "customCss": "position: relative;top: 4px;"
+                
+            }
+        ],
+        "name": "Bonnes pratiques",
+        "content": "Expertise en <b>Développement Dirigé par les Tests (TDD)</b>, application des principes <b>SOLID</b> et rédaction de <b>Clean Code</b>, garantissant la création d'applications performantes, maintenables et évolutives."
+    },
+    {
+        "logos": [
+            {
+                "logo": "http://localhost/images/java-svg.png"
+                
+            },
+            {
+                "logo": "http://localhost/images/php-svg.png",
+                "customCss": "height: 38px;"
+            },
+            {
+                "logo": "http://localhost/images/js-svg.png",
+                "customCss": "position: relative;top: 4px;"
+                
+            }
+        ],
+        "name": "Gesion de projet",
+        "content": "Expérience significative dans l'application des méthodologies <b>Cycle en V </b> et <b>Scrum</b>, assurant une gestion de projet structurée et une adaptation agile aux besoins spécifiques de chaque projet."
+    }
+]

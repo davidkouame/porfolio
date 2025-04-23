@@ -1,0 +1,163 @@
+:root{
+    
+}
+
+.brn4 {
+    border: 1px solid rgba(var(--n4), 0.08);
+  }
+
+  .bgn2-color {
+    background-color: rgba(var(--n2), 1);
+  }
+
+  .br-bottom-n3 {
+    border-bottom: 1px solid rgba(var(--n4), 0.08);
+  }
+
+  .rounded-5 {
+    border-radius: var(--bs-border-radius-xxl) !important;
+  }
+
+  .gap-3 {
+    gap: 1rem !important;
+  }
+
+  .pb-3 {
+    padding-bottom: 1rem !important;
+  }
+
+  .ps-5 {
+    padding-left: 1.25rem !important;
+  }
+
+  .p1-color {
+    color: rgba(var(--p1), 1);
+  }
+
+  .n4-color {
+    color: rgba(var(--n4), 1);
+  }
+
+  span {
+    display: inline-block;
+  }
+
+  .br-left-n3 {
+    border-left: 1px solid rgba(var(--n3), 1);
+  }
+
+  ul li, ol li {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+
+  .n4-color {
+    color: rgba(var(--n4), 1);
+  }
+
+  .display-three {
+    font-size: 64px;
+    line-height: 120%;
+  }
+
+  ul, ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  a:focus, a:hover {
+    text-decoration: none;
+    outline: none;
+  }
+
+  a:hover {
+    --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
+  }
+
+  .d-flex {
+    display: flex !important;
+  }
+
+  .fs-six, h6, h6 > a {
+    font-size: 20px;
+    line-height: 120%;
+  }
+
+  .br-bottom-n3 {
+    border-bottom: 1px solid rgba(var(--n4), 0.08);
+  }
+
+  .pt-60 {
+    padding-top: 60px;
+  }
+
+  .resume-profile {
+    width: 160px;
+    height: 160px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: rgba(var(--p1), 1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .n42-color {
+    color: rgba(var(--n42), 0.8);
+  }
+
+  .fs-seven {
+    font-size: 18px;
+    line-height: 130%;
+  }
+
+  .pb-60 {
+    padding-bottom: 60px;
+  }
+
+  .title-line2 {
+    width: 4px;
+    height: 38px;
+    background-color: rgba(var(--p1));
+  }
+
+  .fs-three, h3, h3 > a {
+    font-size: 32px;
+    line-height: 120%;
+  }
+
+  .n5-color {
+    color: rgba(var(--n5), 1);
+  }
+
+  .fs-eight {
+    font-size: 16px;
+    line-height: 130%;
+  }
+
+  .resume-section ul li {
+    list-style: disc;
+  }
+
+  @media (min-width: 992px) {
+    .ms-lg-10 {
+      margin-left: 2.5rem !important;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .my-md-5 {
+      margin-top: 1.25rem !important;
+      margin-bottom: 1.25rem !important;
+    }
+  }
+
+  .fw-bolder {
+    font-weight: 600 !important;
+  }
