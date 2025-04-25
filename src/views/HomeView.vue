@@ -151,7 +151,7 @@ const baseUrl = import.meta.env.BASE_URL
                     <div class="blog-savior">
                         <div class="logos">
                             <div class="logo" v-for="logo in competence.logos">
-                                <img :src="baseUrl + '/src/assets/img/' + logo.logo" alt="" :style="logo.customCss">
+                                <img :src="`/porfolio/assets/img/${logo.logo}`" alt="" :style="logo.customCss">
                             </div>
                         </div>
                         <div class="title">{{ competence.name }}</div>
@@ -200,7 +200,7 @@ const baseUrl = import.meta.env.BASE_URL
                     <div class="card-project">
                         <div class="card">
                             <div>
-                                <img :src="baseUrl + '/src/assets/img/' + portfolio.img" width="100%">
+                                <img :src="`/porfolio/assets/img/${portfolio.img}`" alt="" width="100%">
                             </div>
                         </div>
                         <div class="skills" style="display: none;">
