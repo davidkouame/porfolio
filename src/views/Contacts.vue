@@ -119,7 +119,7 @@ const submit = () => {
                         <div data-aos="zoom-in" class="mt-8 mt-md-15 aos-init aos-animate">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3747016.8778039054!2d87.7035567133411!3d23.489442669650543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30adaaed80e18ba7%3A0xf2d28e0c4e1fc6b!2sBangladesh!5e0!3m2!1sen!2sbd!4v1719998700959!5m2!1sen!2sbd"
-                                style="border: 0" allowfullscreen="" loading="lazy"
+                                style="border: 0" :allowfullscreen="true" loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade" class="w-100 h-400"></iframe>
                         </div>
                     </div>
@@ -145,13 +145,13 @@ const submit = () => {
                                     class="d-flex align-items-center gap-2 px-3 px-md-5 py-2 py-md-4 rounded-2 brn4 w-100">
                                     <i class="ph ph-octagon p1-color fs-six mb-1"></i>
                                     <input class="n5-color border-0" placeholder="Your Name*" type="text" id="name"
-                                        autocomplete="off" required="">
+                                        autocomplete="off" :required="true">
                                 </div>
                                 <div
                                     class="d-flex align-items-center gap-2 px-3 px-md-5 py-2 py-md-4 rounded-2 brn4 w-100">
                                     <i class="ph ph-envelope p1-color fs-six mb-1"></i>
                                     <input class="n5-color border-0" placeholder="Email address*" type="email"
-                                        id="email" autocomplete="off" required="">
+                                        id="email" autocomplete="off" :required="true">
                                 </div>
                             </div>
                             <div class="d-flex flex-wrap flex-md-nowrap gap-3 gap-md-6">
@@ -159,13 +159,13 @@ const submit = () => {
                                     class="d-flex align-items-center gap-2 px-3 px-md-5 py-2 py-md-4 rounded-2 brn4 w-100">
                                     <i class="ph ph-device-mobile-camera p1-color fs-six mb-1"></i>
                                     <input class="n5-color border-0" placeholder="Phone*" type="number" id="phone"
-                                        autocomplete="off" required="">
+                                        autocomplete="off" :required="true">
                                 </div>
                                 <div
                                     class="d-flex align-items-center gap-2 px-3 px-md-5 py-2 py-md-4 rounded-2 brn4 w-100">
                                     <i class="ph ph-map-pin p1-color fs-six mb-1"></i>
                                     <input class="n5-color border-0" placeholder="Location*" type="text" id="location"
-                                        autocomplete="off" required="">
+                                        autocomplete="off" :required="true">
                                 </div>
                             </div>
                             <div class="mt-3 mt-md-6">
@@ -197,23 +197,23 @@ const submit = () => {
                                 <div class="form-group col-md-6">
                                     <label for="name">Votre nom</label>
                                     <input v-model="store.form.name" type="text" name="name" class="form-control"
-                                        required="">
+                                        :required="true">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="email">Votre email</label>
                                     <input v-model="store.form.email" type="email" class="form-control" name="email"
-                                        required="">
+                                        :required="true">
                                 </div>
                             </div>
                             <div class="form-group mt-4">
                                 <label for="subject">Sujet</label>
                                 <input v-model="store.form.subject" type="text" class="form-control" name="subject"
-                                    required="">
+                                    :required="true">
                             </div>
                             <div class="form-group mt-4">
                                 <label for="message">Message</label>
                                 <textarea id="message" class="form-control" v-model="store.form.message" rows="10"
-                                    required=""></textarea>
+                                    :required="true"></textarea>
                             </div>
                             <div class="text-center mt-4">
                                 <button type="submit" class="btn btn-primary btn-send">Soumettre</button>

@@ -57,7 +57,6 @@ nav{
   margin-top: 1rem !important;
   display: flex;
   flex-direction: column;
-  height: 45vh;
 }
 
 .description-technogoly b{
@@ -504,6 +503,12 @@ footer{
   display: none;
 }
 
+@media (max-width: 1907px){
+  .parent-blog-savior{
+    height: 30vh;
+  }
+}
+
 @media (max-width: 1380px){
   footer{
     display: block;
@@ -555,9 +560,27 @@ footer{
   }
 }
 
+@media (max-width: 1690px){
+  .parent-blog-savior{
+    height: 40vh;
+  }
+}
+
 @media (max-width: 1730px){
   .section-body-title .description .services{
     width: 74%;
+  }
+}
+
+@media (max-width: 1360px){
+  .parent-blog-savior{
+    height: 30vh;
+  }
+}
+
+@media (max-width: 1036px){
+  .parent-blog-savior{
+    height: 35vh;
   }
 }
 
@@ -574,6 +597,10 @@ footer{
   .blog-savoirs .col-md-3 {
     width: 50%;
   }
+
+  .parent-blog-savior{
+    height: 28vh;
+  }
 }
 
 @media (max-width: 796px){
@@ -586,6 +613,18 @@ footer{
 @media (min-width: 769px){
   .section-header .col{
     flex: inherit;
+  }
+}
+
+@media (max-width: 761px){
+  .parent-blog-savior{
+    height: 30vh;
+  }
+}
+
+@media (max-width: 670px){
+  .parent-blog-savior{
+    height: 34vh;
   }
 }
 
