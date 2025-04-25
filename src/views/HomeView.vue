@@ -83,7 +83,7 @@ let portfolios = data.data().portfolios
                     </div>
                 </div>
                 <div class="col-md-4" id="profile">
-                    <img src="https://portfolify-html.vercel.app/assets/images/user.jpg" alt="">
+                    <img src="./../assets/img/profile.png" alt="">
                 </div>
             </div>
             <div class="row">
