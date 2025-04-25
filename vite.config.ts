@@ -7,8 +7,8 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  // base: './',
-  base: '/porfolio',
+  base: './',
+  // base: '/porfolio',
   plugins: [
     vue(),
     vueJsx(),
