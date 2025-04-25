@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "DiapaZon",
-        "img": "http://localhost/images/diapaZon.png",
+        "img": "diapaZon.png",
         "smallDescription": "Une application conçue pour simplifier et optimiser divers processus. Intuitive et performante, elle répond aux besoins des utilisateurs en apportant des solutions adaptées à leurs défis quotidiens.",
         "client": "Allianz Côte d'Ivoire",
         "position": "Développeur backend",
@@ -26,7 +26,7 @@
     {
         "id": 2,
         "name": "Agence Emploi Jeune",
-        "img": "http://localhost/images/aej.png",
+        "img": "aej.png",
         "smallDescription": "La plateforme AEJ (Agence Emploi Jeunes) est une initiative du gouvernement ivoirien visant à faciliter l'insertion professionnelle des jeunes",
         "client":"Digital Afrique Télécom",
         "position": "Développeur fullstack",

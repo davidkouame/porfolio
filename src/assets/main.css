@@ -518,6 +518,10 @@ footer{
   padding: 1rem 1rem 3rem 1rem !important;
     z-index: 3 !important;
     border-top: 1px solid rgba(var(--n5), 0.1);
+    
+    position: fixed;
+  bottom: 0;
+  left: 0;
   }
 
   /*.footer-col .col{
@@ -653,12 +657,44 @@ footer{
   .parent-blog-savior{
     height: auto;
   }
+
+  #profile img{
+    width: 50%;
+  }
+}
+
+@media (max-width: 421px){
+  footer .col .d-flex span{
+    display: none;
+  }
+
+  footer .col a{
+    justify-content: center;
+  }
+}
+
+@media (max-width: 470px){
+  #no-sidebard .section-body-title .text{
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 361px){
+  #no-sidebard .header-btn{
+    display: none;
+  }
 }
 
 @media (max-width: 356px){
   .section-body-title .description .services {
     width: 100%;
     margin-top: 1rem;
+  }
+}
+
+@media (max-width: 350px){
+  #no-sidebard .section-body-title .text{
+    font-size: 36px;
   }
 }
 

@@ -5,6 +5,7 @@ import TheWelcome from '../components/TheWelcome.vue'
 
 let competences = data.data().competences
 let portfolios = data.data().portfolios
+const baseUrl = import.meta.env.BASE_URL
 </script>
 
 <template>
@@ -150,7 +151,7 @@ let portfolios = data.data().portfolios
                     <div class="blog-savior">
                         <div class="logos">
                             <div class="logo" v-for="logo in competence.logos">
-                                <img :src="logo.logo" alt="" :style="logo.customCss">
+                                <img :src="baseUrl + '/src/assets/img/' + logo.logo" alt="" :style="logo.customCss">
                             </div>
                         </div>
                         <div class="title">{{ competence.name }}</div>
@@ -199,7 +200,7 @@ let portfolios = data.data().portfolios
                     <div class="card-project">
                         <div class="card">
                             <div>
-                                <img :src="portfolio.img" width="100%">
+                                <img :src="baseUrl + '/src/assets/img/' + portfolio.img" width="100%">
                             </div>
                         </div>
                         <div class="skills" style="display: none;">

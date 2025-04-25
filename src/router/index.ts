@@ -7,7 +7,7 @@ import Resume from '@/views/Resume.vue'
 import Contacts from '@/views/Contacts.vue'
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes: [
     {
       path: '/',
@@ -19,11 +19,11 @@ const router = createRouter({
       name: 'about',
       component: () => import('../views/AboutView.vue'),
     },
-    {
-      path: '/porfolio',
-      name: 'porfolio',
-      component: Porfolio
-    },
+    // {
+    //   path: '/porfolio',
+    //   name: 'porfolio',
+    //   component: Porfolio
+    // },
     {
       path: '/portfolio/:id',
       name: 'porfolio-detail',
