@@ -82,23 +82,29 @@ let portfolios = data.data().portfolios
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" id="profile">
                     <img src="https://portfolify-html.vercel.app/assets/images/user.jpg" alt="">
                 </div>
             </div>
             <div class="row">
-                <div class="mt-5 d-flex justify-content-start">
-                    <div class="stat">
-                        <h2 class="block-numbers">7</h2>
-                        <p class="block-text">Ans d'expérience</p>
+                <div class="mt-5 d-flex justify-content-start stats">
+                    <div class="col stat">
+                        <div class="stat-block">
+                            <h2 class="block-numbers">7</h2>
+                            <p class="block-text">Ans d'expérience</p>
+                        </div>
                     </div>
-                    <div class="stat">
-                        <h2 class="block-numbers">15</h2>
-                        <p class="block-text">Projets réalisés</p>
+                    <div class="col stat">
+                        <div class="stat-block">
+                            <h2 class="block-numbers">15</h2>
+                            <p class="block-text">Projets réalisés</p>
+                        </div>
                     </div>
                     <div class="stat" style="display: none;">
-                        <h2 class="block-numbers">6k</h2>
-                        <p class="block-text">Clients dans le monde</p>
+                        <div class="stat-block">
+                            <h2 class="block-numbers">6k</h2>
+                            <p class="block-text">Clients dans le monde</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -116,7 +122,7 @@ let portfolios = data.data().portfolios
                 </h1>
             </div>
             <div class="row description">
-                <div class="col-md-8">
+                <div class="col-8">
                     J'ai une expertise dans le développement logiciel avec Java (8, 11, 17), PHP et JavaScript, en
                     utilisant des frameworks comme Spring Boot, Grails, Laravel et Angular. J’ai aussi une expertise en
                     bases de
@@ -124,7 +130,7 @@ let portfolios = data.data().portfolios
                     pratiques
                     telles que TDD, SOLID et Clean Code.
                 </div>
-                <div class="col-md-4">
+                <div class="col-4">
                     <router-link to="/resume" class="services">
                         <svg fill="#ffffff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width: 2rem;">
                             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -140,7 +146,7 @@ let portfolios = data.data().portfolios
                 </div>
             </div>
             <div class="row blog-savoirs">
-                <div class="col-md-3" v-for="competence in competences" style="margin-top: 1rem;">
+                <div class="col-md-3 col-md-sm-4 parent-blog-savior" v-for="competence in competences">
                     <div class="blog-savior">
                         <div class="logos">
                             <div class="logo" v-for="logo in competence.logos">

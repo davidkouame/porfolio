@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <div class="row">
-    <nav class="col-md-2">
+    <nav class="col-md-2" id="sidebard">
       <div class="sidebar d-flex flex-column align-items-center">
         <div class="profile">
           <img src="./assets/img/profile.png" alt="Profile Picture" class="profile-pic mb-3">
@@ -172,9 +172,82 @@ import HelloWorld from './components/HelloWorld.vue'
         </div>
       </div>
     </nav>
-    <div class="col-md-10" style="margin-left: -12px;margin-top: 6rem;">
+    <div class="col-md-10" id="no-sidebard">
       <router-view></router-view>
     </div>
+    <footer>
+      <div class="row">
+        <div class="footer-col d-flex">
+          <div class="col">
+            <router-link to="/" class="d-flex align-items-center gap-2 n11-color fs-eight px-3 py-2">
+              <svg viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="20" height="20">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <title>profile [#1335]</title>
+                  <desc>Created with Sketch.</desc>
+                  <defs> </defs>
+                  <g id="Page-1" stroke-width="0.0002" fill="none" fill-rule="evenodd">
+                    <g id="Dribbble-Light-Preview" transform="translate(-420.000000, -2159.000000)" fill="#fff">
+                      <g id="icons" transform="translate(56.000000, 160.000000)">
+                        <path
+                          d="M374,2009 C371.794,2009 370,2007.206 370,2005 C370,2002.794 371.794,2001 374,2001 C376.206,2001 378,2002.794 378,2005 C378,2007.206 376.206,2009 374,2009 M377.758,2009.673 C379.124,2008.574 380,2006.89 380,2005 C380,2001.686 377.314,1999 374,1999 C370.686,1999 368,2001.686 368,2005 C368,2006.89 368.876,2008.574 370.242,2009.673 C366.583,2011.048 364,2014.445 364,2019 L366,2019 C366,2014 369.589,2011 374,2011 C378.411,2011 382,2014 382,2019 L384,2019 C384,2014.445 381.417,2011.048 377.758,2009.673"
+                          id="profile-[#1335]"> </path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span>A propos</span>
+            </router-link>
+          </div>
+          <div class="col" style="margin: 0 .5rem;">
+            <router-link to="/resume" class="d-flex align-items-center gap-2 n11-color fs-eight px-3 py-2">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M18 6.00002V6.75002H18.75V6.00002H18ZM15.7172 2.32614L15.6111 1.58368L15.7172 2.32614ZM4.91959 3.86865L4.81353 3.12619H4.81353L4.91959 3.86865ZM5.07107 6.75002H18V5.25002H5.07107V6.75002ZM18.75 6.00002V4.30604H17.25V6.00002H18.75ZM15.6111 1.58368L4.81353 3.12619L5.02566 4.61111L15.8232 3.0686L15.6111 1.58368ZM4.81353 3.12619C3.91638 3.25435 3.25 4.0227 3.25 4.92895H4.75C4.75 4.76917 4.86749 4.63371 5.02566 4.61111L4.81353 3.12619ZM18.75 4.30604C18.75 2.63253 17.2678 1.34701 15.6111 1.58368L15.8232 3.0686C16.5763 2.96103 17.25 3.54535 17.25 4.30604H18.75ZM5.07107 5.25002C4.89375 5.25002 4.75 5.10627 4.75 4.92895H3.25C3.25 5.9347 4.06532 6.75002 5.07107 6.75002V5.25002Z"
+                    fill="#fff"></path>
+                  <path d="M8 12H16" stroke="#fff" stroke-width="1.5" stroke-linecap="round"></path>
+                  <path d="M8 15.5H13.5" stroke="#fff" stroke-width="1.5" stroke-linecap="round"></path>
+                  <path
+                    d="M4 6V19C4 20.6569 5.34315 22 7 22H17C18.6569 22 20 20.6569 20 19V14M4 6V5M4 6H17C18.6569 6 20 7.34315 20 9V10"
+                    stroke="#fff" stroke-width="1.5" stroke-linecap="round"></path>
+                </g>
+              </svg>
+              <span>Mon CV</span>
+            </router-link>
+          </div>
+          <div class="col">
+            <router-link to="/contacts" class="d-flex align-items-center gap-2 n11-color fs-eight px-3 py-2">
+              <svg viewBox="0 -2.5 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" width="20" height="20">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <title>email [#fff1573]</title>
+                  <desc>Created with Sketch.</desc>
+                  <defs> </defs>
+                  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Dribbble-Light-Preview" transform="translate(-300.000000, -922.000000)" fill="#fff">
+                      <g id="icons" transform="translate(56.000000, 160.000000)">
+                        <path
+                          d="M262,764.291 L254,771.318 L246,764.281 L246,764 L262,764 L262,764.291 Z M246,775 L246,766.945 L254,773.98 L262,766.953 L262,775 L246,775 Z M244,777 L264,777 L264,762 L244,762 L244,777 Z"
+                          id="email-[#fff1573]"> </path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span>Contacts</span>
+            </router-link>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 

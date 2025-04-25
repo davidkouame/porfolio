@@ -317,7 +317,7 @@ let resume = data.data().resume
                                 </div>
 
                                 <!-- education  -->
-                                <div class="mt-5">
+                                <div class="mt-5" id="education">
                                     <div class="d-flex align-items-center gap-2 mb-3 mb-md-6">
                                         <div class="title-line2"></div>
                                         <h2 class="fs-three p1-color fw-semibold">Education</h2>

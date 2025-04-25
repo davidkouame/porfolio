@@ -49,7 +49,15 @@ nav{
   border: 1px solid rgba(143, 143, 143, 0.25);
   transition: all 0.3s ease-in-out;
   padding: 1.5rem;
-  height: 16rem;
+  flex: 1;
+  height: 100%;
+}
+
+.parent-blog-savior{
+  margin-top: 1rem !important;
+  display: flex;
+  flex-direction: column;
+  height: 45vh;
 }
 
 .description-technogoly b{
@@ -169,8 +177,6 @@ nav{
 }
 
 .stat{
-  display: flex;
-  flex-direction: row;
   margin-right: 0 !important;
   width: 22%;
 }
@@ -492,4 +498,147 @@ none;
   line-height: 1;
   color: #000;
   text-shadow: 0 1px 0 #fff;
+}
+
+footer{
+  display: none;
+}
+
+@media (max-width: 1380px){
+  footer{
+    display: block;
+    background:
+#f8f8f8;
+  height: 54px;
+  padding: 1rem 1rem 3rem 1rem !important;
+    z-index: 3 !important;
+    border-top: 1px solid rgba(var(--n5), 0.1);
+  }
+
+  /*.footer-col .col{
+    justify-content: center;
+    display: flex;
+  }*/
+
+  .footer-col .col a{
+    background-color: rgba(120, 171, 160, 1);
+    /*width: 30%;*/
+    border-radius: 0.5rem !important;
+  }
+
+  .blog-savoirs .col-md-3{
+    width: 33%;
+  }
+  
+  #no-sidebard{
+    width: 100%;
+  }
+
+  #no-sidebard .section-header, #no-sidebard .section-body{
+    padding-left: 1rem;
+  }
+
+  #app .sidebar{
+    display: none !important;
+  }
+}
+
+@media (max-width: 1884px){
+  .section-body-title .description .services{
+    width: 45%;
+  }
+}
+
+@media (max-width: 1177px){
+  .parent-blog-savior{
+    height: 54vh;
+  }
+}
+
+@media (max-width: 1730px){
+  .section-body-title .description .services{
+    width: 74%;
+  }
+}
+
+@media (max-width: 915px){
+  .section-body-title .description .col-8, .section-body-title .description .col-4{
+    width: 100%;
+  }
+
+  .section-body-title .description .services{
+    width: 27%;
+    margin-top: 1rem;
+  }
+
+  .blog-savoirs .col-md-3 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 796px){
+  .section-body-title .description .services {
+    width: 45%;
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 769px){
+  .section-header .col{
+    flex: inherit;
+  }
+}
+
+@media (max-width: 768px) {
+  .who-am-i p {
+    width: 100%;
+  }
+
+  .section-header .stats{
+    justify-content: center !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+}
+
+@media (max-width: 610px){
+  .section-body-title .description .services {
+    width: 74%;
+    margin-top: 1rem;
+  }
+
+  .blog-savoirs .col-md-3 {
+    width: 100%;
+  }
+
+  .parent-blog-savior{
+    height: auto;
+  }
+}
+
+@media (max-width: 356px){
+  .section-body-title .description .services {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+#no-sidebar{
+  margin-left: -12px;
+  margin-top: 6rem;
+}
+
+.section-header section #profile{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.stat-block{
+  display: flex;
+  flex-direction: row;
+}
+
+#education .n4-color.fs-seven{
+  display: block;
 }

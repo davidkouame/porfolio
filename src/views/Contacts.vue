@@ -74,7 +74,7 @@ const submit = () => {
             <div class="col-md-11">
                 <section class="pt-10 pb-120 mt-10 mt-lg-0">
                     <div class="container mt-8 mt-md-15">
-                        <div data-aos="fade-left" class="section-heading aos-init aos-animate">
+                        <div data-aos="fade-left" class="aos-init aos-animate">
                             <div class="d-flex align-items-center gap-2">
                                 <div class="title-line"></div>
                                 <h2 class="display-four n5-color fw-semibold">
@@ -127,7 +127,7 @@ const submit = () => {
 
                 <section class="pb-120">
                     <div class="container">
-                        <div data-aos="fade-up" class="section-heading aos-init aos-animate">
+                        <div data-aos="fade-up" class="aos-init aos-animate">
                             <div class="d-flex align-items-center gap-2">
                                 <div class="title-line"></div>
                                 <h2 class="display-four n5-color fw-semibold">Contactez-moi</h2>
