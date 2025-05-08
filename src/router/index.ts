@@ -7,7 +7,7 @@ import Resume from '@/views/Resume.vue'
 import Contacts from '@/views/Contacts.vue'
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory('portfolio'),
   routes: [
     {
       path: '/',
