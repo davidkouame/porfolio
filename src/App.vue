@@ -13,7 +13,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <h5 class="mt-4 n5-color fw-semibold fs-five text-cente">David kouamé</h5>
         <p>Développeur Java</p>
         <div class="d-flex justify-content-center gap-2 align-items-center">
-          <a href="www.linkedin.com/in/davidkouame" class="social-icon p1-color">
+          <a href="https://www.linkedin.com/in/davidkouame" class="social-icon p1-color" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin"
               viewBox="0 0 16 16">
               <path
@@ -21,7 +21,8 @@ import HelloWorld from './components/HelloWorld.vue'
                 style="color: #78aba0;" />
             </svg>
           </a>
-          <a href="https://www.facebook.com/profile.php?id=100008252957591" class="social-icon p1-color">
+          <a href="https://www.facebook.com/profile.php?id=100008252957591" class="social-icon p1-color"
+            target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook"
               viewBox="0 0 16 16">
               <path
