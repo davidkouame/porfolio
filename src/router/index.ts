@@ -8,7 +8,7 @@ import Contacts from '@/views/Contacts.vue'
 
 const router = createRouter({
   // history: createWebHashHistory('portfolios'),
-  history: createWebHashHistory(),
+  history: createWebHashHistory('porfolio'),
   routes: [
     {
       path: '/',
