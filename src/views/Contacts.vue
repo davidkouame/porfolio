@@ -118,7 +118,7 @@ const submit = () => {
 
                         <div data-aos="zoom-in" class="mt-8 mt-md-15 aos-init aos-animate">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3747016.8778039054!2d87.7035567133411!3d23.489442669650543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30adaaed80e18ba7%3A0xf2d28e0c4e1fc6b!2sBangladesh!5e0!3m2!1sen!2sbd!4v1719998700959!5m2!1sen!2sbd"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63549.28159361414!2d-4.09326777553957!3d5.442751154083579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc194554cb2cd55%3A0x8e22d541a71f973!2sAbobo%2C%20Abidjan%2C%20C%C3%B4te%20d&#39;Ivoire!5e0!3m2!1sen!2sbd!4v1746790076615!5m2!1sen!2sbd"
                                 style="border: 0" :allowfullscreen="true" loading="lazy"
                                 referrerpolicy="no-referrer-when-downgrade" class="w-100 h-400"></iframe>
                         </div>
